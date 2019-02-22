@@ -1,0 +1,154 @@
+body {
+    background-color: #F0F0F0;
+    width: 1280px;
+    height: 1372px;
+    margin: 0;
+}
+
+/* ---------content------------ */
+
+#content {
+    width: 100%;
+    height: 1338px;
+    padding: 80px 85px 40px 55px;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 350px;
+    height: 366px;
+
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.floatLeft {
+    float: left;
+}
+
+#x-container {
+    width: 14px;
+    height: 28px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    color: #2EB738;
+}
+
+.line {
+    width: 280px;
+    height: 1px;
+    background-color: #2EB738;
+
+    margin: 14px 21px;
+}
+
+.clearFix {
+    clear: both;
+}
+
+#ch-title {
+    width: 280px;
+    height: 78px;
+    font-family: 'PingFang','PingFang SC','PingFang TC','微軟正黑體';
+    font-size: 56px;
+    color: #2EB738;
+    font-weight: 500;
+    text-align: center;
+
+    margin-top: 129px;
+    margin-left: 35px; 
+}
+
+#e-title {
+    width: 278px;
+    height: 28px;
+    font-family: 'Helvetica Neue';
+    font-size: 24px;
+    color: #2EB738;
+    text-align: center;
+
+    margin-left: 36px;
+    margin-bottom: 102px;
+}
+
+
+.formulaBox {
+    background-color: #FFFFFF;
+    border-radius: 100px 0 30px 0;
+    box-shadow: 0 3px 10px #D8D8D8;
+
+    position: relative;
+}
+
+.numBox {
+    width: 71px;
+    height: 153px;
+
+    position: absolute;
+    top: 34px;
+    left: 61px;
+
+    font-size: 128px;
+    font-family: 'Helvetica Neue';
+    font-weight: bold;
+    color: #2EB738;
+    text-shadow: 4px 3px 0px #F0F0F0;
+}
+
+.leftList {
+    position: absolute;
+    left: 40px;
+    bottom: 56px;
+
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.rightList {
+    position: absolute;
+    right: 40px;
+    top: 64px;
+
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.listItem {
+    font-size: 24px;
+    font-family: 'Helvetica Neue';
+    color: #2EB738;
+    text-align: left;
+
+    width: 118px;
+    height: 33px;
+    margin-bottom: 8px;
+
+}
+
+
+/* ---------footer------------ */
+
+#footer {
+    width: 1280px;
+    height: 34px;
+    background-color: #2EB738;
+    position: relative;
+}
+
+#copyright {
+    background-color: #2EB738;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    color: #F0F0F0;
+
+    width: 352px;
+    height: 18px;
+
+    position: absolute;
+    top: 8px;
+    left: 843px;
+    margin-top: 0px;
+}
